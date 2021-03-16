@@ -1,8 +1,11 @@
-* {
+import { createGlobalStyle } from 'styled-components';
+
+export default createGlobalStyle`
+  * {
   box-sizing: border-box;
 }
 
-:root {
+#root {
   --background: #EBEBEB;
   --bgWhite: #FFFFFF;
   --orange: #FF6C00;
@@ -30,3 +33,4 @@ button {
   cursor: pointer;
 }
 
+`
