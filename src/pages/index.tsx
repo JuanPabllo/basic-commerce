@@ -1,6 +1,8 @@
+import { NavBar } from "../components/NavBar/Index";
+
 export default function Home() {
   return (
 
-    <div>OI</div>
+    <NavBar />
   )
 }
