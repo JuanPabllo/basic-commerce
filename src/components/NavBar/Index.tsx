@@ -1,11 +1,11 @@
 
-import { ButtonNav, MainNav, TextContainer } from "./Styles";
+import { ButtonNav, ButtonNavActived, MainNav, TextContainer } from "./Styles";
 
-export function NavBar() {
+export const NavBar = () => {
   return (
     <MainNav>
       <TextContainer>
-        <ButtonNav>SACOLA</ButtonNav>
+        <ButtonNavActived>SACOLA</ButtonNavActived>
       </TextContainer>
       <TextContainer>
         <ButtonNav>PAGAMENTO</ButtonNav>
