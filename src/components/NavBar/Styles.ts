@@ -4,9 +4,9 @@ export const MainNav = styled.nav`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   
-  width: 100vw; 
+  width: auto; 
   height: 5rem;
-  background: var(--bgWhite);
+  background: ${props => props.theme.colors.white};
   font-size: 1.4rem;
 
   box-shadow:  0px 2px 8px rgba(0,0,0,0.2);

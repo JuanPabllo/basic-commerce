@@ -5,13 +5,7 @@ export default createGlobalStyle`
   box-sizing: border-box;
 }
 
-#root {
-  --background: #EBEBEB;
-  --bgWhite: #FFFFFF;
-  --orange: #FF6C00;
-  --orangeHover: #D45A00;
-  --inFocus: #c3d8;
-
+:root{
   font-size: 62.5%; /* 1rem = 10px*/
 }
 
@@ -20,7 +14,7 @@ body {
   padding: 0;
   margin: 0;
   
-  background: var(--background);
+  background: ${props => props.theme.colors.secondary};
 }
 
 a {

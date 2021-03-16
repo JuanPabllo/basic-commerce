@@ -1,7 +1,7 @@
 import App from "next/app";
 import { ThemeProvider } from "styled-components";
 import GlobalStyles from "../styles/GlobalStyles";
-import "../globals.css";
+//import "../globals.css";
 
 import { light } from "../styles/theme/light";
 
