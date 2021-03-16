@@ -9,7 +9,7 @@
   --orangeHover: #D45A00;
   --inFocus: #c3d8;
 
-  font-size: 62.5%;
+  font-size: 62.5%; /* 1rem = 10px*/
 }
 
 html,
