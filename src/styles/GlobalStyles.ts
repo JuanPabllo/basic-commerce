@@ -14,7 +14,7 @@ body {
   padding: 0;
   margin: 0;
   
-  background: ${props => props.theme.colors.secondary};
+  background: ${(props) => props.theme.colors.secondary};
 }
 
 a {
@@ -27,4 +27,4 @@ button {
   cursor: pointer;
 }
 
-`
+`;
