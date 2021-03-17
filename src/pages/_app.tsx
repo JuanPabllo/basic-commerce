@@ -6,14 +6,14 @@ import GlobalStyles from '../styles/GlobalStyles';
 import { light } from '../styles/theme/light';
 
 export default class MyApp extends App {
-    // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-    render() {
-        const { Component, pageProps } = this.props;
-        return (
-            <ThemeProvider theme={light}>
-                <GlobalStyles />
-                <Component {...pageProps} />
-            </ThemeProvider>
-        );
-    }
+  // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
+  render() {
+    const { Component, pageProps } = this.props;
+    return (
+      <ThemeProvider theme={light}>
+        <GlobalStyles />
+        <Component {...pageProps} />
+      </ThemeProvider>
+    );
+  }
 }
