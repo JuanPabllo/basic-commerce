@@ -6,17 +6,17 @@ Readme Under Construction 🚧
 
 👤 **Juan Pablo**
 
--   Website:
--   Twitter: []()
--   GitHub: []()
--   LinkedIn: []()
+- Website:
+- Twitter: []()
+- GitHub: []()
+- LinkedIn: []()
 
 👤 **Emmanoel Coutinho**
 
--   Website:
--   Twitter: []()
--   GitHub: []()
--   LinkedIn: []()
+- Website:
+- Twitter: []()
+- GitHub: []()
+- LinkedIn: []()
 
 ### Getting Started 🚀
 
@@ -32,8 +32,8 @@ $ cd basic-commerce
 
 #### Requirements
 
--   [Node.js](https://nodejs.org/en/)
--   [Yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
 
 This project use third party dependencies that need to be installed, use that command to install all needed dependencies
 
@@ -59,7 +59,7 @@ $ npm run dev
 
 # Roadmap
 
--   [x] [Test](https://github.com/JuanPabllo/basic-commerce)
+- [x] [Test](https://github.com/JuanPabllo/basic-commerce)
 
 # For Devs
 
