@@ -13,8 +13,6 @@ html,
 body {
   padding: 0;
   margin: 0;
-  
-  background: ${(props) => props.theme.colors.secondary};
 }
 
 a {

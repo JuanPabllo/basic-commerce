@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 
 import { ApiContext } from '../../contexts/apiContext';
-import { Container } from './Styles';
+import { Container, ContainerInner, ContainerProducts, Strong } from './Styles';
 
 export const Products: React.FC = () => {
   const { dataApi } = useContext(ApiContext);
@@ -9,7 +9,14 @@ export const Products: React.FC = () => {
 
   return (
     <Container>
-      <h1>${dataApi}</h1>
+      <Strong>PRODUTOS</Strong>
+      <ContainerInner>
+        {dataApi.map((data) => (
+          <ContainerProducts key={data.product.sku}>
+            <h1>{data.product.name}</h1>
+          </ContainerProducts>
+        ))}
+      </ContainerInner>
     </Container>
   );
 };

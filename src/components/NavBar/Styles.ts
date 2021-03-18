@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const MainNav = styled.nav`
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-around;
 
   width: auto;
   height: 5rem;
@@ -15,7 +15,6 @@ export const TextContainer = styled.div`
   display: flex;
   justify-content: left;
   align-items: center;
-  padding-left: 0.8rem;
 `;
 
 export const ButtonNav = styled.strong`

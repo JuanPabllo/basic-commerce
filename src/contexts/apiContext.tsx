@@ -15,10 +15,11 @@ export function ApiProvider({ children }: apiProviderProps): any {
   const apiFetch = useCallback(async () => {
     try {
       const apiData = await fetch('http://www.mocky.io/v2/5b15c4923100004a006f3c07');
-      const { id, items } = await apiData.json();
-      console.log(items);
-      const filter = [id, items[0].product.name];
-      setDataApi(filter);
+      const data = await apiData.json();
+      const dados = data.items;
+      // const dataName = dados.map((item) => item.product.name);
+      //console.log(dados);
+      setDataApi(dados);
     } catch (err) {
       console.log(err + 'Código: 500');
     }

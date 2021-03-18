@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
-export const Strong = styled.strong`
-  margin: 2rem;
-  font-size: 1.5rem;
+export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  background: ${(props) => props.theme.colors.secondary};
+  height: 100vh;
 `;
