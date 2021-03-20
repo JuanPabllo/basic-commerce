@@ -1,6 +1,7 @@
 import { useContext } from 'react';
 
 import { ApiContext } from '../../contexts/apiContext';
+import formatCurrency from '../../utils/formatCurrency';
 import { Title } from '../Title/index';
 import {
   Container,
@@ -24,7 +25,7 @@ export const Products: React.FC = () => {
             <ProductImage src={data.product.imageObjects[0].small} alt="Imagem dos produtos" />
             <div>
               <TextName>{data.product.name}</TextName>
-              <TextPrice>R$ {data.product.priceSpecification.price}</TextPrice>
+              <TextPrice>{formatCurrency(Number(data.product.priceSpecification.price))}</TextPrice>
             </div>
           </ContainerProducts>
         ))}
