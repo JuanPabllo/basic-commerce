@@ -44,16 +44,23 @@ export const ProductImage = styled.img`
   max-height: 6rem;
   height: auto;
 
-  margin-bottom: 1rem;
+  margin-top: 1rem;
+`;
+
+export const ProductInfos = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 `;
 
 export const TextName = styled.p`
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
 `;
 
 export const TextPrice = styled.strong`
-  position: absolute;
-  right: 8%;
+  padding: 0 1.5rem 1.5rem 0;
 
-  font-size: 1.2rem;
+  font-weight: 600;
+  font-size: 1.5rem;
 `;
