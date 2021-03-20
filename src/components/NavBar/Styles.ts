@@ -18,8 +18,8 @@ export const TextContainer = styled.div`
 `;
 
 export const ButtonNav = styled.strong`
-  color: #cccccc;
+  color: #cccccc; /* adicionar a paleta de cores tipadas */
 `;
 export const ButtonNavActived = styled.strong`
-  color: #ff6c00;
+  color: #ff6c00; /* adicionar a paleta de cores tipadas */
 `;
