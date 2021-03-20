@@ -17,7 +17,7 @@ export const ContainerInner = styled.div`
   display: flex;
   flex-direction: column;
 
-  background: ${(props) => props.theme.colors.white};
+  background: ${(props) => props.theme.colors.hover};
   height: 100%;
   font-size: 0.8rem;
 `;
