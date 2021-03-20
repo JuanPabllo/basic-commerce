@@ -7,8 +7,6 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <title>Commerce</title>
-
           <link rel="shortcut icon" href="favicon.jpg" type="image/png" />
         </Head>
         <body>
