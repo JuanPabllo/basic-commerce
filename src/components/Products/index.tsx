@@ -15,7 +15,7 @@ import {
 
 export const Products: React.FC = () => {
   const { dataApi } = useContext(ApiContext);
-  console.log(dataApi);
+  //console.log(dataApi);
 
   return (
     <Container>

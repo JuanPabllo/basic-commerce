@@ -17,9 +17,9 @@ export const TextContainer = styled.div`
   align-items: center;
 `;
 
-export const ButtonNav = styled.strong`
+export const NavSelection = styled.strong`
   color: #cccccc; /* adicionar a paleta de cores tipadas */
 `;
-export const ButtonNavActived = styled.strong`
+export const NavSelected = styled.strong`
   color: #ff6c00; /* adicionar a paleta de cores tipadas */
 `;
