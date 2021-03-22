@@ -8,7 +8,17 @@ export const Container = styled.div`
   height: 100vh;
 `;
 
-export const Strong = styled.strong`
-  font-size: 1.5rem;
-  padding: 0 0 5px 10px;
+export const FormContainer = styled.div`
+  background: ${(props) => props.theme.colors.white};
+
+  margin: 0 auto;
+  width: 95%;
 `;
+
+export const WrapperCard = styled.div``;
+
+export const WrapperCardInfo = styled.div``;
+
+export const Field = styled.div``;
+
+export const Input = styled.input``;
