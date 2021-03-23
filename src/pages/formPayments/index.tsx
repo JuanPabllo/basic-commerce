@@ -2,7 +2,16 @@ import { useState } from 'react';
 import InputMask from 'react-input-mask';
 
 import NavBar from '../../components/NavBar/Index';
-import { Container, FormContainer, Input, WrapperCard, WrapperCardInfo } from './styles';
+import { ContainerInner } from '../../components/Products/Styles';
+import {
+  Container,
+  ContainerData,
+  ContainerInfo,
+  ContainterInnerInfo,
+  FormContainer,
+  Input,
+  Label
+} from './styles';
 
 const FormPayments: React.FC = () => {
   const [numberCard, setNumberCard] = useState('');
@@ -22,27 +31,40 @@ const FormPayments: React.FC = () => {
     <Container>
       <NavBar />
       <FormContainer>
-        <WrapperCard>
+        <ContainerData>
+          <Label>Número do cartão:</Label>
           <InputMask
             mask="9999-9999-9999-9999"
             onChange={(e) => setNumberCard(e.target.value)}
             value={numberCard}>
-            <Input required placeholder="bota cartao" />
+            <Input required placeholder="____-____-____-____" />
           </InputMask>
+          <Label>Nome do Titular:</Label>
           <InputMask mask="" onChange={(e) => setName(e.target.value)} value={name}>
-            <Input required placeholder="bota nome" />
+            <Input required placeholder="Como no cartão" />
           </InputMask>
-        </WrapperCard>
-        <WrapperCardInfo>
-          <InputMask mask="99/9999" onChange={(e) => setValidity(e.target.value)} value={validity}>
-            <Input required placeholder="bota validade" />
-          </InputMask>
-          <InputMask mask="999" onChange={(e) => setCvv(e.target.value)} value={cvv}>
-            <Input required placeholder="bota cvv" />
-          </InputMask>
-        </WrapperCardInfo>
+        </ContainerData>
+        <ContainerInfo>
+          <ContainterInnerInfo>
+            <Label>Validade (mês/ano):</Label>
+            <InputMask
+              mask="99/9999"
+              onChange={(e) => setValidity(e.target.value)}
+              value={validity}>
+              <Input required placeholder="__/ ____" />
+            </InputMask>
+          </ContainterInnerInfo>
+          <ContainterInnerInfo>
+            <Label>CVV:</Label>
+            <InputMask mask="999" onChange={(e) => setCvv(e.target.value)} value={cvv}>
+              <Input required placeholder="___" />
+            </InputMask>
+          </ContainterInnerInfo>
+        </ContainerInfo>
+        <button type="submit" onClick={sendInfoToStorage}>
+          manda tudo
+        </button>
       </FormContainer>
-      <button onClick={sendInfoToStorage}>manda tudo</button>
     </Container>
   );
 };
