@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 
-import { ButtonNav, ButtonNavActived, MainNav, TextContainer } from './Styles';
+import { MainNav, NavSelected, NavSelection, TextContainer } from './Styles';
 
 const NavBar: React.FC = () => {
   const router = useRouter();
@@ -18,7 +18,7 @@ const NavBar: React.FC = () => {
         )}
       </TextContainer>
       <TextContainer>
-        <ButtonNav>CONFIRMAÇÃO</ButtonNav>
+        <NavSelection>CONFIRMAÇÃO</NavSelection>
       </TextContainer>
     </MainNav>
   );

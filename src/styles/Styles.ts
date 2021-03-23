@@ -5,5 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
 
   background: ${(props) => props.theme.colors.secondary};
-  height: 100vh;
+  height: 100%;
+
+  padding-bottom: 1.2rem;
 `;

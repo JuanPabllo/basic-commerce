@@ -3,6 +3,8 @@ import { createGlobalStyle } from 'styled-components';
 export default createGlobalStyle`
   * {
   box-sizing: border-box;
+  
+  font-family: 'Montserrat', sans-serif;
 }
 
 :root{
@@ -13,6 +15,8 @@ html,
 body {
   padding: 0;
   margin: 0;
+
+  height: 100vh;
 }
 
 a {
