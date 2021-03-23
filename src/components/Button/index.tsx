@@ -1,5 +1,5 @@
 import { MainButton } from './style';
 
-export const Title: React.FC = ({ children }) => {
+export const Button: React.FC = ({ children }) => {
   return <MainButton>{children}</MainButton>;
 };

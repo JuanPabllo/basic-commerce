@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import { MainButton } from '../components/Button/style';
+import { Button } from '../components/Button/index';
 import NavBar from '../components/NavBar/Index';
 import { Prices } from '../components/Prices';
 import { Products } from '../components/Products';
@@ -15,7 +15,7 @@ const Home: React.FC = () => {
       <NavBar />
       <Products />
       <Prices />
-      <MainButton>SEGUIR PARA O PAGAMENTO</MainButton>
+      <Button>SEGUIR PARA O PAGAMENTO</Button>
     </Container>
   );
 };
