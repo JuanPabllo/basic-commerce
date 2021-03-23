@@ -1,7 +1,6 @@
 <h1 align="center">
 Readme Under Construction 🚧 
 </h1>
-/*![](https://img.shields.io/github/license/JuanPabllo/basic-commerce)*/
 <img alt="licenseMIT" src="https://img.shields.io/github/license/JuanPabllo/basic-commerce" />
 
 ## Author
