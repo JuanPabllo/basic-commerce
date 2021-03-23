@@ -1,16 +1,16 @@
-import { ButtonNav, ButtonNavActived, MainNav, TextContainer } from './Styles';
+import { MainNav, NavSelected, NavSelection, TextContainer } from './Styles';
 
 const NavBar: React.FC = () => {
   return (
     <MainNav>
       <TextContainer>
-        <ButtonNavActived>SACOLA</ButtonNavActived>
+        <NavSelected>SACOLA</NavSelected>
       </TextContainer>
       <TextContainer>
-        <ButtonNav>PAGAMENTO</ButtonNav>
+        <NavSelection>PAGAMENTO</NavSelection>
       </TextContainer>
       <TextContainer>
-        <ButtonNav>CONFIRMAÇÃO</ButtonNav>
+        <NavSelection>CONFIRMAÇÃO</NavSelection>
       </TextContainer>
     </MainNav>
   );
