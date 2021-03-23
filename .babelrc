@@ -1,6 +1,8 @@
 {
   "presets": [
-    "next/babel"
+    "next/babel",
+    "@babel/preset-typescript",
+    ["@babel/preset-env", { "targets": { "node": "current" } }]
   ],
   "plugins": [
     [
