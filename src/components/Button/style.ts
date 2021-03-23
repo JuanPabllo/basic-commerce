@@ -9,6 +9,10 @@ export const MainButton = styled.button`
 
   margin: 0 auto;
   width: 95%;
+  justify-content: center;
+  overflow: hiden;
+
+  min-height: 6rem;
   height: 8rem;
 
   font-size: 2rem;

@@ -31,7 +31,6 @@ export function ApiProvider({ children }: apiProviderProps): any {
       const apiData = await fetch('http://www.mocky.io/v2/5b15c4923100004a006f3c07');
       const data = await apiData.json();
       const dados = data.items;
-      // const dataName = dados.map((item) => item.product.name);
       //console.log(dados);
       setPrices({
         subTotal: data.subTotal,
@@ -41,7 +40,7 @@ export function ApiProvider({ children }: apiProviderProps): any {
       });
       setDataApi(dados);
     } catch (err) {
-      console.log(err + 'Código: 500');
+      console.log(err);
     }
   }, []);
 
