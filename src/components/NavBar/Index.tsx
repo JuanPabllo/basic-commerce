@@ -11,7 +11,7 @@ const NavBar: React.FC = () => {
         {path === '/' ? <NavSelected>SACOLA</NavSelected> : <NavSelection>SACOLA</NavSelection>}
       </TextContainer>
       <TextContainer>
-        {path === '/formPayments' ? (
+        {path === '/payments' ? (
           <NavSelected>PAGAMENTO</NavSelected>
         ) : (
           <NavSelection>PAGAMENTO</NavSelection>

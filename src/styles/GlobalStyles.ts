@@ -16,7 +16,7 @@ body {
   padding: 0;
   margin: 0;
 
-  height: 100vh;
+  height: 100%;
 }
 
 a {

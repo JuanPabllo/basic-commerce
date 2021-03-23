@@ -1,8 +1,13 @@
+import { useRouter } from 'next/router';
+
 import { MainButton } from './style';
 
-export const Button: React.FC = ({ children }) => {
-  const parapfvr = (e: { preventDefault: () => void }) => {
-    e.preventDefault();
-  };
-  return <MainButton onClick={parapfvr}>{children}</MainButton>;
+interface Iteste {
+  teste: string;
+}
+
+export const Button: React.FC<Iteste> = ({ children, teste }) => {
+  const router = useRouter();
+
+  return <MainButton onClick={() => router.push(`${teste}`)}>{children}</MainButton>;
 };
