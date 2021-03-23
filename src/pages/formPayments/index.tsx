@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import InputMask from 'react-input-mask';
 
+import { Button } from '../../components/Button/index';
 import NavBar from '../../components/NavBar/Index';
-import { ContainerInner } from '../../components/Products/Styles';
+import { Prices } from '../../components/Prices/index';
+import { Title } from '../../components/Title/index';
 import {
   Container,
   ContainerData,
@@ -19,8 +21,7 @@ const FormPayments: React.FC = () => {
   const [validity, setValidity] = useState('');
   const [cvv, setCvv] = useState('');
 
-  const sendInfoToStorage = (e: { preventDefault: () => void }) => {
-    e.preventDefault();
+  const sendInfoToStorage = () => {
     console.log(numberCard);
     console.log(name);
     console.log(validity);
@@ -30,6 +31,7 @@ const FormPayments: React.FC = () => {
   return (
     <Container>
       <NavBar />
+      <Title>CARTÃO DE CRÉDITO</Title>
       <FormContainer>
         <ContainerData>
           <Label>Número do cartão:</Label>
@@ -61,10 +63,9 @@ const FormPayments: React.FC = () => {
             </InputMask>
           </ContainterInnerInfo>
         </ContainerInfo>
-        <button type="submit" onClick={sendInfoToStorage}>
-          manda tudo
-        </button>
       </FormContainer>
+      <Prices />
+      <Button onClick={sendInfoToStorage}>FINALIZAR O PEDIDO</Button>
     </Container>
   );
 };
