@@ -15,7 +15,7 @@ const Home: React.FC = () => {
       <NavBar />
       <Products />
       <Prices />
-      <Button teste="/payments">SEGUIR PARA O PAGAMENTO</Button>
+      <Button route="/payments">SEGUIR PARA O PAGAMENTO</Button>
     </Container>
   );
 };
