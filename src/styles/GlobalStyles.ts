@@ -29,4 +29,8 @@ button {
   cursor: pointer;
 }
 
+input:infocus {
+  border: 1px solid red;
+};
+
 `;

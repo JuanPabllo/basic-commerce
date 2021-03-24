@@ -27,7 +27,7 @@ export const FormContainer = styled.div`
   border-radius: 5px;
 
   background: white;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 `;
 
 export const ContainerData = styled.div`
@@ -61,6 +61,7 @@ export const Input = styled.input`
   border-radius: 5px;
   border: 1px solid #cccccc;
   width: 95%;
+  box-shadow: inset 1px 2px 2px rgba(0, 0, 0, 0.2);
 
   color: #cccccc;
   &::-webkit-input-placeholder {
@@ -73,4 +74,8 @@ export const Input = styled.input`
 
   margin: 0 auto;
   padding-left: 1.5rem;
+
+  &:focus {
+    outline-color: #a43287;
+  }
 `;
