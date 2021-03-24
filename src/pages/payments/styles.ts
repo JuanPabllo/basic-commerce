@@ -1,8 +1,17 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+
   background: ${(props) => props.theme.colors.secondary};
-  height: 100%;
+  height: 100vh;
+  padding-bottom: 1.2rem;
+`;
+
+export const FlexTitle = styled.div`
+  margin: 12px 1rem 5px;
 `;
 
 export const FormContainer = styled.div`
@@ -10,8 +19,9 @@ export const FormContainer = styled.div`
   flex-direction: column;
 
   height: 100%;
+  max-height: 30rem;
   width: 95%;
-  margin: 2rem auto 0;
+  margin: 0 auto;
   padding-bottom: 2rem;
 
   border-radius: 5px;
@@ -29,6 +39,7 @@ export const ContainerData = styled.div`
 export const ContainerInfo = styled.div`
   display: inline-grid;
   grid-template-columns: repeat(2, 1fr);
+  max-height: 10rem;
 `;
 
 export const ContainterInnerInfo = styled.div`

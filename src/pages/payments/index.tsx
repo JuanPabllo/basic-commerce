@@ -10,6 +10,7 @@ import {
   ContainerData,
   ContainerInfo,
   ContainterInnerInfo,
+  FlexTitle,
   FormContainer,
   Input,
   Label
@@ -31,7 +32,9 @@ const FormPayments: React.FC = () => {
   return (
     <Container>
       <NavBar />
-      <Title>CARTÃO DE CRÉDITO</Title>
+      <FlexTitle>
+        <Title>CARTÃO DE CRÉDITO</Title>
+      </FlexTitle>
       <FormContainer>
         <ContainerData>
           <Label>Número do cartão:</Label>
