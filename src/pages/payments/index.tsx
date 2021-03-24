@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import { useState } from 'react';
+import { useCallback, useState } from 'react';
 import InputMask from 'react-input-mask';
 
 import { Button } from '../../components/Button/index';
@@ -25,14 +25,13 @@ const FormPayments: React.FC = () => {
   const [validity, setValidity] = useState('');
   const [cvv, setCvv] = useState('');
 
-  const sendInfoToStorage = () => {
+  const sendInfoToStorage = useCallback(() => {
     localStorage.setItem('numberCard', numberCard);
     localStorage.setItem('name', name);
     localStorage.setItem('validity', validity);
     localStorage.setItem('cvv', cvv);
-    console.log('oi');
     router.push('/finish');
-  };
+  }, [cvv, name, numberCard, validity, router]);
 
   return (
     <Container>
