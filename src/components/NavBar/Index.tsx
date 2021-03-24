@@ -18,7 +18,11 @@ const NavBar: React.FC = () => {
         )}
       </TextContainer>
       <TextContainer>
-        <NavSelection>CONFIRMAÇÃO</NavSelection>
+        {path === '/finish' ? (
+          <NavSelected>CONFIRMAÇÃO</NavSelected>
+        ) : (
+          <NavSelection>CONFIRMAÇÃO</NavSelection>
+        )}
       </TextContainer>
     </MainNav>
   );
