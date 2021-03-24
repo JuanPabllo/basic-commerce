@@ -22,10 +22,10 @@ const FormPayments: React.FC = () => {
   const [cvv, setCvv] = useState('');
 
   const sendInfoToStorage = () => {
-    console.log(numberCard);
-    console.log(name);
-    console.log(validity);
-    console.log(cvv);
+    localStorage.setItem('numberCard', numberCard);
+    localStorage.setItem('name', name);
+    localStorage.setItem('validity', validity);
+    localStorage.setItem('cvv', cvv);
   };
 
   return (
