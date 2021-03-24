@@ -1,13 +1,9 @@
-import { useRouter } from 'next/router';
-
 import { MainButton } from './style';
 
 interface Iroute {
-  route?: string;
+  onClick: () => void;
 }
 
-export const Button: React.FC<Iroute> = ({ children, route }) => {
-  const router = useRouter();
-
-  return <MainButton onClick={() => router.push(`${route}`)}>{children}</MainButton>;
+export const Button: React.FC<Iroute> = ({ children, onClick }) => {
+  return <MainButton onClick={onClick}>{children}</MainButton>;
 };

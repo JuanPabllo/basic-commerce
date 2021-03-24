@@ -1,3 +1,4 @@
+import { useRouter } from 'next/router';
 import { useState } from 'react';
 import InputMask from 'react-input-mask';
 
@@ -17,6 +18,8 @@ import {
 } from './styles';
 
 const FormPayments: React.FC = () => {
+  const router = useRouter();
+
   const [numberCard, setNumberCard] = useState('');
   const [name, setName] = useState('');
   const [validity, setValidity] = useState('');
@@ -27,6 +30,8 @@ const FormPayments: React.FC = () => {
     localStorage.setItem('name', name);
     localStorage.setItem('validity', validity);
     localStorage.setItem('cvv', cvv);
+    console.log('oi');
+    router.push('/finish');
   };
 
   return (
