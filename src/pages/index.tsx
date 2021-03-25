@@ -1,5 +1,3 @@
-import Head from 'next/head';
-
 import { Button } from '../components/Button/index';
 import NavBar from '../components/NavBar/Index';
 import { Prices } from '../components/Prices';
@@ -9,9 +7,6 @@ import { Container } from '../styles/Styles';
 const Home: React.FC = () => {
   return (
     <Container>
-      <Head>
-        <title>Commerce</title>
-      </Head>
       <NavBar />
       <Products />
       <Prices />
