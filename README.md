@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/static/v1?label=next&message=framework&color=blue&style=for-the-badge&logo=next"/>
   <img src="https://img.shields.io/static/v1?label=Vercel&message=deploy&color=blue&style=for-the-badge&logo=vercel"/>
   <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+  <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
 </p>
 
 > ⚠️ ATTENTION: This application will ask for your card information, do not fill it with real information. We don't use this information for anything.
@@ -14,7 +14,9 @@
 ### Project description
 
 <p align="justify">
-  Descrição breve do projeto compondo um paragrafo ou dois. 
+  An open source layout of the payment system of a store for free use, at the moment we call the api in useContext passing the provider in _APP.tsx to be able to use the information of the api in any component, the use of next.js was a great choice of our part I believe that the SSR will be very useful in the future of the application.
+
+We believe that another important addition has been the Styled components that allowed us to be practical in some maneuvers in the project, mainly in the Dark mode feature that is still in production. 
 </p>
 
 ### Deploy and how to access the application
