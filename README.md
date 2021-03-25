@@ -19,9 +19,9 @@
 
 Access the application here: basic-commerce.vercel.app
 
-<img width="250" src=".github/images/index.jpeg" />
-<img width="250" src=".github/images/index2.jpeg" />
-<img width="250" src=".github/images/index3.jpeg" />
+<img width="300" src=".github/images/index.jpeg" />
+<img width="300" src=".github/images/index2.jpeg" />
+<img width="300" src=".github/images/index3.jpeg" />
 
 ### 🛠 Technology
 
