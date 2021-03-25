@@ -9,6 +9,8 @@
    <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
 </p>
 
+> ⚠️ ATTENTION: This application will ask for your card information, do not fill it with real information. We don't use this information for anything.
+
 ### Project description
 
 <p align="justify">
@@ -18,6 +20,7 @@
 ### Deploy and how to access the application
 
 Access the application:
+
 - [Here](https://basic-commerce.vercel.app/)
 
 <img width="300" src=".github/images/index.jpeg" />
