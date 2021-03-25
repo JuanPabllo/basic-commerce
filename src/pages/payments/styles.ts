@@ -12,6 +12,13 @@ export const Container = styled.div`
 
 export const FlexTitle = styled.div`
   margin: 12px 1rem 5px;
+
+  @media (min-width: 720px) {
+    margin: 12px 3rem 5px;
+  }
+  @media (min-width: 1250px) {
+    margin: 12px 5rem 5px;
+  }
 `;
 
 export const FormContainer = styled.div`

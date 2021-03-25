@@ -1,4 +1,3 @@
-import { useRouter } from 'next/router';
 import { useCallback, useState } from 'react';
 import InputMask from 'react-input-mask';
 
@@ -18,8 +17,6 @@ import {
 } from './styles';
 
 const FormPayments: React.FC = () => {
-  const router = useRouter();
-
   const [numberCard, setNumberCard] = useState('');
   const [name, setName] = useState('');
   const [validity, setValidity] = useState('');
@@ -30,8 +27,7 @@ const FormPayments: React.FC = () => {
     localStorage.setItem('name', name);
     localStorage.setItem('validity', validity);
     localStorage.setItem('cvv', cvv);
-    router.push('/finish');
-  }, [cvv, name, numberCard, validity, router]);
+  }, [cvv, name, numberCard, validity]);
 
   return (
     <Container>
@@ -72,7 +68,9 @@ const FormPayments: React.FC = () => {
         </ContainerInfo>
       </FormContainer>
       <Prices />
-      <Button onClick={sendInfoToStorage}>FINALIZAR O PEDIDO</Button>
+      <Button onClick={sendInfoToStorage} route="/finish">
+        FINALIZAR O PEDIDO
+      </Button>
     </Container>
   );
 };
