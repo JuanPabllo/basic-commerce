@@ -26,14 +26,10 @@ export const IconText = styled.h1`
 `;
 
 export const FlexTitle = styled.div`
-  margin: 12px 1rem 5px;
-
-  @media (min-width: 720px) {
-    margin: 12px 3rem 5px;
-  }
-  @media (min-width: 1250px) {
-    margin: 12px 3.5rem 5px;
-  }
+  display: flex;
+  justify-content: flex-start;
+  width: 95%;
+  margin: 0 auto;
 `;
 
 export const PaymentsContainer = styled.div`
