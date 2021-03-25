@@ -74,6 +74,8 @@ $ npm run dev
 Version 2.0 Features
 
 - [] User registration
+- [] Desktop version
+- [] Dark Mode
 - [] Authentication
 - [] Deploy
 - [] Create API
@@ -96,9 +98,9 @@ Version 2.0 Features
 👤 **Emmanoel Coutinho**
 
 - Website:
-- Twitter: []()
-- GitHub: []()
-- LinkedIn: []()
+- Instagram: https://www.instagram.com/emmanoel_cezar/
+- GitHub: https://github.com/EmmanoelCoutinho
+- LinkedIn: https://www.linkedin.com/in/emmanoel-coutinho-8802bb1b7/
 
 ### License 📝
 
