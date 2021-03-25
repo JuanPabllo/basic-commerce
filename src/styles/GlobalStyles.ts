@@ -16,7 +16,7 @@ body {
   padding: 0;
   margin: 0;
 
-  height: 100vh;
+  height: 100%;
 }
 
 a {
@@ -28,5 +28,9 @@ a,
 button {
   cursor: pointer;
 }
+
+input:infocus {
+  border: 1px solid red;
+};
 
 `;

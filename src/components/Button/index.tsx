@@ -1,5 +1,19 @@
+import { useRouter } from 'next/router';
+
 import { MainButton } from './style';
 
-export const Title: React.FC = ({ children }) => {
-  return <MainButton>{children}</MainButton>;
+interface Isettings {
+  onClick?: () => void;
+  route: string;
+}
+
+export const Button: React.FC<Isettings> = ({ children, onClick, route }) => {
+  const router = useRouter();
+
+  const onClickSettings = () => {
+    onClick();
+    router.push(route);
+  };
+
+  return <MainButton onClick={onClickSettings}>{children}</MainButton>;
 };

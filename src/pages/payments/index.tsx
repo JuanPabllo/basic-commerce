@@ -1,13 +1,16 @@
-import { useState } from 'react';
+import { useCallback, useState } from 'react';
 import InputMask from 'react-input-mask';
 
+import { Button } from '../../components/Button/index';
 import NavBar from '../../components/NavBar/Index';
-import { ContainerInner } from '../../components/Products/Styles';
+import { Prices } from '../../components/Prices/index';
+import { Title } from '../../components/Title/index';
 import {
   Container,
   ContainerData,
   ContainerInfo,
   ContainterInnerInfo,
+  FlexTitle,
   FormContainer,
   Input,
   Label
@@ -19,17 +22,19 @@ const FormPayments: React.FC = () => {
   const [validity, setValidity] = useState('');
   const [cvv, setCvv] = useState('');
 
-  const sendInfoToStorage = (e: { preventDefault: () => void }) => {
-    e.preventDefault();
-    console.log(numberCard);
-    console.log(name);
-    console.log(validity);
-    console.log(cvv);
-  };
+  const sendInfoToStorage = useCallback(() => {
+    localStorage.setItem('numberCard', numberCard);
+    localStorage.setItem('name', name);
+    localStorage.setItem('validity', validity);
+    localStorage.setItem('cvv', cvv);
+  }, [cvv, name, numberCard, validity]);
 
   return (
     <Container>
       <NavBar />
+      <FlexTitle>
+        <Title>CARTÃO DE CRÉDITO</Title>
+      </FlexTitle>
       <FormContainer>
         <ContainerData>
           <Label>Número do cartão:</Label>
@@ -61,10 +66,11 @@ const FormPayments: React.FC = () => {
             </InputMask>
           </ContainterInnerInfo>
         </ContainerInfo>
-        <button type="submit" onClick={sendInfoToStorage}>
-          manda tudo
-        </button>
       </FormContainer>
+      <Prices />
+      <Button onClick={sendInfoToStorage} route="/finish">
+        FINALIZAR O PEDIDO
+      </Button>
     </Container>
   );
 };

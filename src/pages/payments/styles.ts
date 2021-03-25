@@ -1,8 +1,24 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+
   background: ${(props) => props.theme.colors.secondary};
-  height: 100%;
+  height: 100vh;
+  padding-bottom: 1.2rem;
+`;
+
+export const FlexTitle = styled.div`
+  margin: 12px 1rem 5px;
+
+  @media (min-width: 720px) {
+    margin: 12px 3rem 5px;
+  }
+  @media (min-width: 1250px) {
+    margin: 12px 5rem 5px;
+  }
 `;
 
 export const FormContainer = styled.div`
@@ -10,14 +26,15 @@ export const FormContainer = styled.div`
   flex-direction: column;
 
   height: 100%;
+  max-height: 30rem;
   width: 95%;
-  margin: 2rem auto 0;
+  margin: 0 auto;
   padding-bottom: 2rem;
 
   border-radius: 5px;
 
   background: white;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 `;
 
 export const ContainerData = styled.div`
@@ -29,6 +46,7 @@ export const ContainerData = styled.div`
 export const ContainerInfo = styled.div`
   display: inline-grid;
   grid-template-columns: repeat(2, 1fr);
+  max-height: 10rem;
 `;
 
 export const ContainterInnerInfo = styled.div`
@@ -50,6 +68,7 @@ export const Input = styled.input`
   border-radius: 5px;
   border: 1px solid #cccccc;
   width: 95%;
+  box-shadow: inset 1px 2px 2px rgba(0, 0, 0, 0.2);
 
   color: #cccccc;
   &::-webkit-input-placeholder {
@@ -62,4 +81,8 @@ export const Input = styled.input`
 
   margin: 0 auto;
   padding-left: 1.5rem;
+
+  &:focus {
+    outline-color: #a43287;
+  }
 `;
