@@ -15,11 +15,11 @@
   Descrição breve do projeto compondo um paragrafo ou dois. 
 </p>
 
-### Layout or Deploy and Application
+### Deploy and how to access the application
 
-> Application deploy link:
+Access the application here: basic-commerce.vercel.app
 
-insert application screenshots and gifs
+![](.github/images/index.jpeg) | ![](.github/images/index2.jpeg) | ![](.github/images/index3.jpeg)
 
 ### 🛠 Technology
 
