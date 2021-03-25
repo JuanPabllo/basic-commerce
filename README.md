@@ -2,11 +2,24 @@
     <a href="#">🔗 Basic-Commerce</a>
 </h1>
 <p align="center">🚀 Application simulating payments in an e-commerce</p>
-<img alt="licenseMIT" src="https://img.shields.io/github/license/JuanPabllo/basic-commerce" />
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=next&message=framework&color=blue&style=for-the-badge&logo=next"/>
+  <img src="https://img.shields.io/static/v1?label=Vercel&message=deploy&color=blue&style=for-the-badge&logo=vercel"/>
+  <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+</p>
 
-<h4 align="center"> 
-	🚧  Basic-Commerce 🚀 Under construction...  🚧
-</h4>
+### Project description
+
+<p align="justify">
+  Descrição breve do projeto compondo um paragrafo ou dois. 
+</p>
+
+### Layout or Deploy and Application
+
+> Application deploy link:
+
+insert application screenshots and gifs
 
 ### 🛠 Technology
 
@@ -67,7 +80,7 @@ Version 2.0 Features
 ## Contributors
 
 <table>
-  <tr border="none">
+  <tr>
     <td align="center"><a><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/59495901?v=4" width="100px;" alt=""/><br /><sub><b>Juan Pablo</b></sub></a><br /><a href="https://github.com/JuanPabllo" title="JuanPabllo">👨‍🚀</a></td>
     <td align="center"><a><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/61562882?v=4" width="100px;" alt=""/><br /><sub><b>Emmanoel Coutinho </b></sub></a><br /><a href="https://github.com/EmmanoelCoutinho" title="EmmanoelCoutinho">🚀</a></td>
   </tr>
