@@ -28,7 +28,7 @@ export function ApiProvider({ children }: apiProviderProps): any {
   });
   const apiFetch = useCallback(async () => {
     try {
-      const apiData = await fetch('http://www.mocky.io/v2/5b15c4923100004a006f3c07');
+      const apiData = await fetch('https://www.mocky.io/v2/5b15c4923100004a006f3c07');
       const data = await apiData.json();
       const dados = data.items;
       setPrices({
