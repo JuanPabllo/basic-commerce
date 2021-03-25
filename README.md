@@ -18,7 +18,7 @@
 ### Deploy and how to access the application
 
 Access the application:
-- [Here](basic-commerce.vercel.app)
+- [Here](https://basic-commerce.vercel.app/)
 
 <img width="300" src=".github/images/index.jpeg" />
 <img width="300" src=".github/images/index2.jpeg" />
