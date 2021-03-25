@@ -8,21 +8,6 @@
 	🚧  Basic-Commerce 🚀 Under construction...  🚧
 </h4>
 
-## Authors
-
-👤 **Juan Pablo**
-
-- Website: https://juan-pablo.vercel.app/
-- GitHub: https://github.com/JuanPabllo
-- LinkedIn: https://www.linkedin.com/in/juanpablodev/
-
-👤 **Emmanoel Coutinho**
-
-- Website:
-- Twitter: []()
-- GitHub: []()
-- LinkedIn: []()
-
 ### 🛠 Technology
 
 The following tools were used in the construction of the project:
@@ -82,11 +67,24 @@ Version 2.0 Features
 ## Contributors
 
 <table>
-  <tr>
+  <tr border="none">
     <td align="center"><a><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/59495901?v=4" width="100px;" alt=""/><br /><sub><b>Juan Pablo</b></sub></a><br /><a href="https://github.com/JuanPabllo" title="JuanPabllo">👨‍🚀</a></td>
     <td align="center"><a><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/61562882?v=4" width="100px;" alt=""/><br /><sub><b>Emmanoel Coutinho </b></sub></a><br /><a href="https://github.com/EmmanoelCoutinho" title="EmmanoelCoutinho">🚀</a></td>
   </tr>
 </table>
+
+👤 **Juan Pablo**
+
+- Website: https://juan-pablo.vercel.app/
+- GitHub: https://github.com/JuanPabllo
+- LinkedIn: https://www.linkedin.com/in/juanpablodev/
+
+👤 **Emmanoel Coutinho**
+
+- Website:
+- Twitter: []()
+- GitHub: []()
+- LinkedIn: []()
 
 ### License 📝
 
