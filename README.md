@@ -1,16 +1,20 @@
 <h1 align="center">
-Readme Under Construction 🚧 
+    <a href="#">🔗 Basic-Commerce</a>
 </h1>
+<p align="center">🚀 Application simulating payments in an e-commerce</p>
 <img alt="licenseMIT" src="https://img.shields.io/github/license/JuanPabllo/basic-commerce" />
 
-## Author
+<h4 align="center"> 
+	🚧  Basic-Commerce 🚀 Under construction...  🚧
+</h4>
+
+## Authors
 
 👤 **Juan Pablo**
 
-- Website:
-- Twitter: []()
-- GitHub: []()
-- LinkedIn: []()
+- Website: https://juan-pablo.vercel.app/
+- GitHub: https://github.com/JuanPabllo
+- LinkedIn: https://www.linkedin.com/in/juanpablodev/
 
 👤 **Emmanoel Coutinho**
 
@@ -18,6 +22,15 @@ Readme Under Construction 🚧
 - Twitter: []()
 - GitHub: []()
 - LinkedIn: []()
+
+### 🛠 Technology
+
+The following tools were used in the construction of the project:
+
+- [Next.js](https://nextjs.org/)
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 
 ### Getting Started 🚀
 
@@ -58,14 +71,23 @@ or
 $ npm run dev
 ```
 
-# Roadmap
+### Todo 📌
 
-- [x] [Test](https://github.com/JuanPabllo/basic-commerce)
+Version 2.0 Features
 
-# For Devs
+- [] User registration
+- [] Authentication
+- [] Deploy
 
-<div align="center">
+## Contributors
 
-![](.github/images/gitflow-feature-develop.png)
+<table>
+  <tr>
+    <td align="center"><a><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/59495901?v=4" width="100px;" alt=""/><br /><sub><b>Juan Pablo</b></sub></a><br /><a href="https://github.com/JuanPabllo" title="JuanPabllo">👨‍🚀</a></td>
+    <td align="center"><a><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/61562882?v=4" width="100px;" alt=""/><br /><sub><b>Emmanoel Coutinho </b></sub></a><br /><a href="https://github.com/EmmanoelCoutinho" title="EmmanoelCoutinho">🚀</a></td>
+  </tr>
+</table>
 
-</div>
+### License 📝
+
+This project is under the MIT license. See the [LICENSE](https://github.com/juanpabllo/basic-commerce/blob/main/license) for more information.
