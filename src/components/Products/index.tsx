@@ -21,7 +21,7 @@ export const Products: React.FC = () => {
     <Container>
       <Title>PRODUTOS</Title>
       <ContainerInner>
-        {dataApi.map((data) => (
+        {dataApi.map((data: any) => (
           <ContainerProducts key={data.product.sku}>
             <ProductImage src={data.product.imageObjects[0].extraLarge} alt="Imagem dos produtos" />
             <ProductInfos>

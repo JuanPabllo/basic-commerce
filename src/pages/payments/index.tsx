@@ -14,7 +14,7 @@ import {
   FormContainer,
   Input,
   Label
-} from './styles';
+} from '../../styles/stylesPayments/style';
 
 const FormPayments: React.FC = () => {
   const [numberCard, setNumberCard] = useState('');

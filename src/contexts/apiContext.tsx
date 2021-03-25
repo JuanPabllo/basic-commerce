@@ -31,13 +31,13 @@ export function ApiProvider({ children }: apiProviderProps): any {
       const apiData = await fetch('http://www.mocky.io/v2/5b15c4923100004a006f3c07');
       const data = await apiData.json();
       const dados = data.items;
-      //console.log(dados);
       setPrices({
         subTotal: data.subTotal,
         shippingTotal: data.shippingTotal,
         discount: data.discount,
         total: data.total
       });
+      console.log(dados);
       setDataApi(dados);
     } catch (err) {
       console.log(err);

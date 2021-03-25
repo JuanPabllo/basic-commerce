@@ -13,7 +13,8 @@ import {
   IconText,
   PaymentsContainer,
   TextPayments
-} from './style';
+} from '../../styles/stylesFinish/style';
+
 const Finish: React.FC = () => {
   const [numberCard, setNumberCard] = useState('');
   const [name, setName] = useState('');
