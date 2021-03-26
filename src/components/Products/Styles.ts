@@ -89,6 +89,10 @@ export const ProductInfos = styled.div`
 export const TextName = styled.p`
   font-size: 1.2rem;
   font-weight: 500;
+
+  @media (min-width: 1024px) {
+    margin-right: 1.6rem;
+  }
 `;
 
 export const TextPrice = styled.strong`
