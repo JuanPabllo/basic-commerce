@@ -1,4 +1,10 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+const rotateLoader = keyframes`
+  to {
+    transform: rotate(360deg);
+  }
+`;
 
 export const Container = styled.div`
   display: flex;
@@ -21,6 +27,33 @@ export const ContainerInner = styled.div`
   height: 100%;
   width: 95vw;
   font-size: 0.8rem;
+`;
+
+export const LoaderContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: ${(props) => props.theme.colors.white};
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+
+  width: 95vw;
+`;
+
+export const Loader = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+
+  border: 5px solid ${(props) => props.theme.colors.secondary};
+  border-right-color: ${(props) => props.theme.colors.primary};
+  border-radius: 50%;
+  animation: ${rotateLoader} 1s linear infinite;
+
+  height: 8rem;
+  width: 8rem;
 `;
 
 export const ContainerProducts = styled.div`
