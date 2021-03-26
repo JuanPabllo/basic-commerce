@@ -37,7 +37,6 @@ export function ApiProvider({ children }: apiProviderProps): any {
         discount: data.discount,
         total: data.total
       });
-      console.log(dados);
       setDataApi(dados);
     } catch (err) {
       console.log(err);
