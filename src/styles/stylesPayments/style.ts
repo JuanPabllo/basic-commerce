@@ -66,7 +66,6 @@ export const Input = styled.input`
   width: 95%;
   box-shadow: inset 1px 2px 2px rgba(0, 0, 0, 0.2);
 
-  color: #cccccc;
   &::-webkit-input-placeholder {
     color: #cccccc;
   }
@@ -80,5 +79,6 @@ export const Input = styled.input`
 
   &:focus {
     outline-color: #a43287;
+    color: ${(props) => props.theme.colors.black};
   }
 `;
