@@ -85,7 +85,7 @@ Version 2.0 Features
 - [] Desktop version
 - [] Dark Mode
 - [] Authentication
-- [] Deploy
+- [x] Deploy
 - [] Create API
 
 ## Contributors
