@@ -81,12 +81,10 @@ $ npm run dev
 
 Version 2.0 Features
 
-- [] User registration
-- [] Desktop version
-- [] Dark Mode
-- [] Authentication
-- [x] Deploy
-- [] Create API
+- [ ] User registration
+- [ ] Authentication
+- [ ] Deploy
+- [ ] Create API
 
 ## Contributors
 
