@@ -83,7 +83,7 @@ Version 2.0 Features
 
 - [ ] User registration
 - [ ] Authentication
-- [ ] Deploy
+- [X] Deploy
 - [ ] Create API
 
 ## Contributors
